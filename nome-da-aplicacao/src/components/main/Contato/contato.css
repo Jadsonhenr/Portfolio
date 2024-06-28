@@ -1,0 +1,54 @@
+.Conteudo__contato{
+    height: 100vh;
+    width: 100%;
+    background: rgb(15, 15, 70);
+}
+.Conteudo__contato h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 1em;
+}
+form{
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    margin: 5em;
+    width: 410px;
+}
+form input{
+    height: 35px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    
+}
+#form button{
+    width: 100px;
+    height: 30px;
+    margin-left: 10em;
+    background-color: rgba(0, 0, 0, 0.541);
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+#form textarea {
+    height: 150px; /* Ajuste a altura do textarea conforme necessário */
+    resize: none; /* Bloqueia o redimensionamento do textarea */
+    color: black;
+    font-size: 18px;
+    outline: none;
+}
+.conteudo__contato{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    margin-top: 5em;
+}
+.info h3{
+    font-size: 24px;
+    margin-bottom: 1em;
+}
+.info h4{
+    margin-bottom: 1em;
+}

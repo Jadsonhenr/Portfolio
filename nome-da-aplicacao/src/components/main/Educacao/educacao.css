@@ -1,0 +1,76 @@
+.Conteudo__educacao {
+    height: 100vh;
+    width: 100%;
+    background: rgb(80, 80, 114);
+    padding: 10px 15px;
+}
+.Conteudo__educacao h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+.linha__do__tempo__listas {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+.linha__do__tempo__listas::before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height:120%;
+    background-color: rgba(8, 8, 8, 0.459);
+    left: 50%;
+    top: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.linha__do__tempo__lista {
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+.linha__do__tempo__lista:last-child{
+    margin-bottom: 0;
+}
+.linha__do__tempo__lista:nth-child(odd) {
+    padding-right: calc(50% + 30px);
+    text-align: right;
+}
+.linha__do__tempo__lista:nth-child(even) {
+    padding-left: calc(50% + 30px);
+}
+.linha__do__tempo__ {
+    align-items: center;
+    height: 100px;
+}
+.linha__do__tempo__data {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin: 0px -10px 10px;
+}
+.linha__do__tempo__conteudo {
+    background-color: black;
+    border: 3px solid black;
+    padding: 30px 50px;
+    border-radius: 4rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+.linha__do__tempo__conteudo:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px bisque;
+}
+.linha__do__tempo__conteudo h3{
+    font-size: 20px;
+    color: white;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+.linha__do__tempo__conteudo p{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+}
